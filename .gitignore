@@ -1,0 +1,35 @@
+# Файлы окружения и секреты (КРИТИЧЕСКИ ВАЖНО)
+.env
+.env.local
+.env.*.local
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.blueprint/
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+
+# Временные медиа-файлы и графики
+media/
+*.png
+*.jpeg
+
+# Файлы настроек сред разработки (IDE)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Логи системы
+*.log
