@@ -77,6 +77,10 @@ Pandas (среднее, медиана, корреляция), очищать д
 
 Создайте файл `.env` в корне на основе шаблона:
 
+```bash
+cp .env.example .env
+```
+
 ```env
 DB_USER=postgres
 DB_PASSWORD=ваш_пароль
